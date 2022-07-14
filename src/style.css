@@ -1,0 +1,261 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+body {
+    font-family: 'NanumSquare';
+    background-color: #282c34;
+    margin: auto;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.header-light {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    width:fit-content;
+    background-color: #f6f8fa;
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+.header-dark {
+    font-size: 30px;
+    font-weight: bold;
+    color: #efefef;
+    width:fit-content;
+    background-color: #1c2128;
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+.header-dark a {
+    color: #efefef;
+    text-decoration: none;
+}
+
+.theme-light {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #1c2128;
+    box-shadow: 0px 0px 5px 0px gray;
+
+    font-size: 25px;
+    text-align: center;
+    line-height: 58px;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.theme-light:hover {
+    opacity: 0.9;
+}
+
+.theme-dark {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #f6f8fa;
+    box-shadow: 0px 0px 5px 0px white;
+
+    font-size: 25px;
+    text-align: center;
+    line-height: 58px;
+}
+
+.theme-dark:hover {
+    opacity: 0.9;
+}
+
+.content-light {
+    background-color: #f6f8fa;
+    width: 700px;
+    height: 350px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.content-light .thumbnail {
+    width: 250px;
+    height: 250px;
+    margin: 50px 30px 50px 30px;
+    float: left;
+}
+
+.content-light .title {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    padding-top: 75px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    margin: -20px;
+}
+
+.content-light .title a{
+    text-decoration: none;
+    color: black;
+}
+
+.content-light .title a:hover{
+    text-decoration: underline;
+    text-decoration-color: skyblue;
+    text-decoration-thickness: 5px;
+}
+
+.content-light .category {
+    color: black;
+    padding-right: 10px;
+    float: left;
+}
+
+.content-light .date {
+    color: black;
+}
+
+.content-light .article {
+    font-size: 16px;
+    color: black;
+    padding-right: 30px;
+    white-space: pre-line;
+}
+
+.content-dark {
+    background-color: #1c2128;
+    width: 1000px;
+    height: 350px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.content-dark .thumbnail {
+    width: 250px;
+    height: 250px;
+    margin: 50px 50px 50px 50px;
+    float: left;
+}
+
+.content-dark .title {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 75px;
+    color: #efefef;
+    padding-top: 75px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    margin: -20px;
+}
+
+.content-dark .title a{
+    text-decoration: none;
+    color: #efefef;
+}
+
+.content-dark .title a:hover{
+    text-decoration: underline;
+    text-decoration-color: skyblue;
+    text-decoration-thickness: 5px;
+}
+
+.content-dark .category {
+    color: #efefef;
+    padding-right: 10px;
+    float: left;
+}
+
+.content-dark .date {
+    color: #efefef;
+}
+
+.content-dark .article {
+    font-size: 16px;
+    color: #efefef;
+    padding-right: 30px;
+    white-space: pre-line;
+}
+
+.Post {
+    width: 50%;
+    margin: auto;
+}
+
+.Post .divider-dark {
+    background-color: #1c2128;
+    margin: 10px 0px 5px 0px;
+    width: 100%;
+    height: 5px;
+}
+
+.Post .top-dark {
+    background-color: #1c2128;
+    height: fit-content;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.Post .title-dark {
+    color: #efefef;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+
+.Post .category-dark {
+    color: #efefef;
+    float:left;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+.Post .date-dark {
+    color: #efefef;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.Post .article-dark {
+    background-color: #1c2128;
+    color: #efefef;
+    padding: 1px 0px 10px 10px;
+    margin-bottom: 100px;
+}
+
+.footer-light {
+    background-color: #f6f8fa;
+    width: 100%;
+    height: 60px;
+}
+
+.footer-dark {
+    background-color: #1c2128;
+    width: 100%;
+    height: 60px;
+    white-space: pre-line;
+}
+
+.markdown {
+    white-space: 'pre-wrap'
+}
