@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom'
+import temp from './thumbnail.png'
 
 const Prev = ({postMarkdownFile, theme}) => {
   const LINE_LIMIT = 7;
@@ -49,7 +50,7 @@ const Prev = ({postMarkdownFile, theme}) => {
     <div className={ "content" + theme }>
     { 
       thumbnail == null
-      ? <img className="thumbnail" alt="" src="logo512.png"></img>
+      ? <img className="thumbnail" alt="" src={temp}></img>
       : <img className="thumbnail" alt="" src={thumbnail}></img>
     }
     <div className="title">
