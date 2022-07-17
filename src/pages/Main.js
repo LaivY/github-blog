@@ -24,7 +24,7 @@ const Main = () => {
   }
 
   // 포스팅 모두 불러오기
-  const posts = importAll(require.context("../media", false, /\.md$/)).reverse();
+  const posts = importAll(require.context("../posts", false, /\.md$/)).reverse();
 
   return (
       <div className="Main">
